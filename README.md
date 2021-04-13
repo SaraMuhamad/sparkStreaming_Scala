@@ -2,6 +2,7 @@
 Telecom Company X is aiming to increase the data usage of its customer base as a key objective for 2021. So X decided to target their data customer base with specialized campaigns to upsell their data packages. X also partnered up with various famous applications to give the customers extra promotions to increase the traffic on the applications. X is looking for aspiring data engineers to transform such strategic decision into a reality. Aspiring data engineers will work with streaming data capturing the data usage traffic for X customers. Since the customer base generates ridiculous amount of traffic, X is only interested in a subset of the base “Segment” to try the new initiative on. To insure a good customer experience, X wants to target the segment with only one campaign a day per application.
 
 //to execute the jar 
+
 Spark-Scala Streaming Project
 Objective:
 The main objective of the application is to produce the data each app is interested in for their campaign. To do so, we used spark-streaming framework to listen for incoming data, process it on the fly according to the desired set of rules.
